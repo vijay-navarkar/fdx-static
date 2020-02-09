@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @ComponentScan("com.fdx.rtct.staticModule")
 @RequestMapping
 public class StaticApplication {
-
+	
 	public static void main(String[] args) {
 		System.out.println("--allocation started-----");
 		SpringApplication.run(StaticApplication.class, args);
@@ -23,5 +23,6 @@ public class StaticApplication {
 		return "Scan Test Controller 2";
 		
 	}
+	
 	
 }

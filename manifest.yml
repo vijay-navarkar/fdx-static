@@ -7,6 +7,8 @@ applications:
   routes:
   - route: staticmodule.cfapps.io
   stack: cflinuxfs3
+  services:
+  - fdx_database
   buildpacks :
    - java_buildpack
   env:
