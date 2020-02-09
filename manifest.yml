@@ -1,11 +1,11 @@
 applications:
-- name: scan
+- name: StaticModule
   disk_quota: 512M
   instances: 1
   memory: 512M
-  path : target/scan-0.0.1-SNAPSHOT.jar
+  path : target/staticModule-0.0.1-SNAPSHOT.jar
   routes:
-  - route: scan.cfapps.io
+  - route: staticmodule.cfapps.io
   stack: cflinuxfs3
   buildpacks :
    - java_buildpack
