@@ -15,6 +15,9 @@ public class Book {
 	private String name;
 	private String description;
 	
+	public Book() {
+	}
+
 	public Book(String name, String description) {
 		super();
 		this.name = name;
