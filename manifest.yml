@@ -9,6 +9,7 @@ applications:
   stack: cflinuxfs3
   services:
   - fdx_database
+  - naming-server
   buildpacks :
    - java_buildpack
   env:
