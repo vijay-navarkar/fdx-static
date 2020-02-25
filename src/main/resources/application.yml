@@ -1,2 +1,0 @@
-spring:  application:    name: StaticModule  jpa:    hibernate:      ddl-auto: updateserver:  port: 8082 eureka:  client:    register-with-eureka: true    fetch-registry: true    service-url:       #defaultZone: https://eurekaserverfdx.cfapps.io/eureka      defaultZone: https://eureka-5cb1f936-d0e1-4b7c-a603-890acf523f5f.cfapps.io/eureka 
-
